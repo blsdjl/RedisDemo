@@ -21,6 +21,7 @@ class StringRedisTest {
         System.out.println("name = " + name);
         System.out.println("this is the test");
         System.out.println("this is the master");
+        System.out.println("this is hot-fix");
     }
 
     @Test
