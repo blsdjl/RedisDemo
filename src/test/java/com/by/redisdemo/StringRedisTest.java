@@ -19,6 +19,7 @@ class StringRedisTest {
         stringRedisTemplate.opsForValue().set("name","春秋分");
         Object name = stringRedisTemplate.opsForValue().get("name");
         System.out.println("name = " + name);
+        System.out.println("this is the test");
     }
 
     @Test
