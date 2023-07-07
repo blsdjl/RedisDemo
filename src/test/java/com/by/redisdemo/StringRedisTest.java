@@ -20,6 +20,7 @@ class StringRedisTest {
         Object name = stringRedisTemplate.opsForValue().get("name");
         System.out.println("name = " + name);
         System.out.println("this is the test");
+        System.out.println("this is the master");
     }
 
     @Test
